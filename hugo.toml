@@ -1,4 +1,36 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://code.joergi.io/quickstart/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'My digital brain'
+theme = "mainroad"
+
+[Author] # Used in authorbox
+name = "Joergi"
+bio = "as the brain can't remember anything - this blog is my memory"
+avatar = "https://avatars.githubusercontent.com/u/1439809?s=400&u=344ee7934e0701207dd2dac5a436509ea401d23c&v=4"
+
+[Params]
+schema = true # Enable Schema
+twitter_cards = true # Enable Twitter Cards if true
+readmore = true # Show "Read more" button in list if true
+authorbox = true # Show authorbox at bottom of pages if true
+toc = true # Enable Table of Contents
+customCSS = ["css/custom.css"] # Include custom CSS files
+
+[Params.sidebar]
+    home = "right" # Configure layout for home page
+    list = "left"  # Configure layout for list pages
+    single = false # Configure layout for single pages
+    # Enable widgets in given order
+    widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+
+[Params.widgets]
+recent_num = 5 # Set the number of articles in the "Recent articles" widget
+categories_counter = false # Enable counter for each category in "Categories" widget
+tags_counter = false # Enable counter for each tag in "Tags" widget
+
+
+
+
+
+

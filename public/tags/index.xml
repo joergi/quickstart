@@ -1,11 +1,187 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on My digital brain</title>
+    <link>http://localhost:1313/quickstart/tags/</link>
+    <description>Recent content in Tags on My digital brain</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/quickstart/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/quickstart/tags/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giscus</title>
+      <link>http://localhost:1313/quickstart/tags/giscus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/giscus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>http://localhost:1313/quickstart/tags/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Howto</title>
+      <link>http://localhost:1313/quickstart/tags/howto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/howto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/quickstart/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kernel</title>
+      <link>http://localhost:1313/quickstart/tags/kernel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/kernel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keyboard</title>
+      <link>http://localhost:1313/quickstart/tags/keyboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/quickstart/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thinkpad</title>
+      <link>http://localhost:1313/quickstart/tags/thinkpad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/thinkpad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trackpoint</title>
+      <link>http://localhost:1313/quickstart/tags/trackpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/trackpoint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cam</title>
+      <link>http://localhost:1313/quickstart/tags/cam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/cam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberrypi</title>
+      <link>http://localhost:1313/quickstart/tags/raspberrypi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streaming</title>
+      <link>http://localhost:1313/quickstart/tags/streaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/streaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Registry</title>
+      <link>http://localhost:1313/quickstart/tags/registry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/registry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/quickstart/tags/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lombok</title>
+      <link>http://localhost:1313/quickstart/tags/lombok/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/lombok/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>90ties</title>
+      <link>http://localhost:1313/quickstart/tags/90ties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/90ties/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monkey Island</title>
+      <link>http://localhost:1313/quickstart/tags/monkey-island/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/monkey-island/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retro</title>
+      <link>http://localhost:1313/quickstart/tags/retro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/retro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authentication</title>
+      <link>http://localhost:1313/quickstart/tags/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Verified User</title>
+      <link>http://localhost:1313/quickstart/tags/verified-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/verified-user/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>http://localhost:1313/quickstart/tags/sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/sorting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distro</title>
+      <link>http://localhost:1313/quickstart/tags/distro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/distro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boot</title>
+      <link>http://localhost:1313/quickstart/tags/boot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diskspace</title>
+      <link>http://localhost:1313/quickstart/tags/diskspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/tags/diskspace/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
