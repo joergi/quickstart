@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/quickstart/posts/2024-06-21-ja-aritkel-dependabot/</loc>
+    <loc>http://localhost:1313/quickstart/driaft/2024-06-21-ja-aritkel-dependabot/</loc>
+    <lastmod>2024-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/driaft/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/quickstart/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/quickstart/posts/</loc>
-    <lastmod>2024-06-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/quickstart/posts/2024-04-11-add-new-tasmota-device-to-home-assistant/</loc>
+    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/posts/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/quickstart/posts/2023-09-01-privacy-friendly-online-alternatives/</loc>

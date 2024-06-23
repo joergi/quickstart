@@ -5,14 +5,14 @@ categories: [linux, developer, github]
 tags: [github, verified user, authentication, github]
 date: 2020-03-27
 ---
-
-
-  When you create a new file directly on Github and push it to your branch, you will see in the commit, that this was done by an verified user.<br /><img class="alignnone size-full wp-image-484" src="https://joergi77.files.wordpress.com/2020/03/github1-2.png" alt="github1" width="947" height="227" />
+sdfasdfdsa sfdsf
+xxxxxx
+When you create a new file directly on Github and push it to your branch, you will see in the commit, that this was done by an verified user.<br /><img class="alignnone size-full wp-image-484" src="https://joergi77.files.wordpress.com/2020/03/github1-2.png" alt="github1" width="947" height="227" />
 
 
   If you push it from your command line, it normally looks like this:
 
-
+![Alt text](images/github2.png "github 2")
   <img class="alignnone size-full wp-image-474" src="https://joergi77.files.wordpress.com/2020/03/github2.png" alt="github2" width="947" height="60" />  
   P.S. if you followed the tutorial, and something went wrong, it will look like this:  
     <img class="alignnone size-full wp-image-473" src="https://joergi77.files.wordpress.com/2020/03/github3_fail.png" alt="github3_fail" width="947" height="60" />  

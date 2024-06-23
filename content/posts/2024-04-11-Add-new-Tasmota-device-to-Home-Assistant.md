@@ -1,5 +1,5 @@
 ---
-title: Add new Tasmota device to Home Assistant with MQTT"
+title: Add new Tasmota device to Home Assistant with MQTT
 description: "Adding a new Tasmota device to Home Assistant via MQTT and the console of the device"
 date: 2024-04-11
 ---
