@@ -69,7 +69,7 @@ find out over `ifconfig` what your local IP is.
 I can reach in my wifi then the stream under: http://192.186.1.175:8081   
 Remember: the port 8081 was defined in the point above
 
-![Alt text](https://raw.githubusercontent.com/joergi/blog/main/images/webcam-in-action.png "screenshot of the raspberrypi streaming to the my browser")
+![Alt text](images/webcam-in-action.png "screenshot of the raspberrypi streaming to the my browser")
 
 # start motion everytime you start your raspberry pi
 to have it always running I used a cronjob:
