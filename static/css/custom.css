@@ -10,6 +10,10 @@ body{
 	background-color: #FF1493;
 }
 
+.list__footer-readmore .btn a:link{
+	color: white;
+}
+
 code {
 	color: #FF1493;
 }
@@ -29,6 +33,11 @@ code {
 }
 
 a:link, a:hover, a:visited, a:active, a:focus{
+	color: #FF1493;
+	text-decoration: underline;
+}
+
+.content a:hover, .content a:focus{
 	color: #FF1493;
 	text-decoration: underline;
 }
