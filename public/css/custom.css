@@ -1,0 +1,43 @@
+body{
+	background-color: #e7e7e7;
+}
+
+.header, .wrapper{
+	background-color: #f2f2f2;
+}
+
+.tags__badge, .widget-search__form, .divider, .btn {
+	background-color: #FF1493;
+}
+
+.list__footer-readmore .btn a:link{
+	color: white;
+}
+
+code {
+	color: #FF1493;
+}
+.btn:hover {
+	background-color: black;
+}
+
+.widget__title{
+	border-bottom: 3px solid #FF1493;
+}
+
+.footer {
+	text-align: center;
+	background-color: #E7E7E7;
+	border-top: 3px solid #FF1493;
+	border-bottom: 3px solid #FF1493;
+}
+
+a:link, a:hover, a:visited, a:active, a:focus{
+	color: #FF1493;
+	text-decoration: underline;
+}
+
+.content a:hover, .content a:focus{
+	color: #FF1493;
+	text-decoration: underline;
+}

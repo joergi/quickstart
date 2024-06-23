@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/quickstart/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=quickstart/livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Automatische Dependency Updates mit GitHub Actions und Dependabot - My digital brain</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="In den meisten Firmen ist es immer das gleiche, 1-2 Personen kümmern sich um die Dependencies, während sich viele Kolleg*innen davor drücken und hoffen, dass irgendwer das aktuell hält. Also lieber gleich den ganzen Prozess mit GitHub Actions und Dependabot automatisieren.">
+		
+  <meta itemprop="name" content="Automatische Dependency Updates mit GitHub Actions und Dependabot">
+  <meta itemprop="description" content="In den meisten Firmen ist es immer das gleiche, 1-2 Personen kümmern sich um die Dependencies, während sich viele Kolleg*innen davor drücken und hoffen, dass irgendwer das aktuell hält. Also lieber gleich den ganzen Prozess mit GitHub Actions und Dependabot automatisieren.">
+  <meta itemprop="datePublished" content="2024-06-21T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-06-21T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2313">
+		
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Automatische Dependency Updates mit GitHub Actions und Dependabot">
+  <meta name="twitter:description" content="In den meisten Firmen ist es immer das gleiche, 1-2 Personen kümmern sich um die Dependencies, während sich viele Kolleg*innen davor drücken und hoffen, dass irgendwer das aktuell hält. Also lieber gleich den ganzen Prozess mit GitHub Actions und Dependabot automatisieren.">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/quickstart/css/style.css">
+	<link rel="stylesheet" href="/quickstart/css/custom.css">
+
+	<link rel="shortcut icon" href="/quickstart/favicon.ico">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		<a href="https://github.com/joergi/blog" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FF1493; color:#e7e7e7; position: fixed; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+		<a href="https://blog.joergi.io/feed.xml" aria-label="RSS Feed">
+			<svg
+				width="80px"
+				height="80px"
+				viewBox="0 0 256 256"
+				style="position: fixed; top: 0; border: 0; right: 0;">
+				<path
+					style="fill:#FF1493;"
+					d="M -0.3515625,-0.19335938 19.492188,19.595703 c 3.878081,-3.279638 8.896647,-5.255859 14.396484,-5.255859 h 59.140625 c 12.342703,0 22.279293,9.936598 22.279293,22.279297 v 59.140625 c 0,5.436924 -1.92814,10.406114 -5.14062,14.265624 L 128.54492,128.35156 127.83984,0.16015625 Z M 110.16797,110.02539 l -9.86328,-9.83594 a 70.88849,70.88849 0 0 1 0.0156,0.43164 H 86.142578 A 56.710795,56.710795 0 0 0 83.423828,83.353516 L 46.615234,46.644531 A 56.710795,56.710795 0 0 0 29.431641,43.910156 V 29.732422 a 70.88849,70.88849 0 0 1 0.236328,0.01172 L 19.492188,19.595703 c -4.825086,4.080505 -7.882813,10.180576 -7.882813,17.023438 v 59.140625 c 0,12.342694 9.936598,22.279294 22.279297,22.279294 h 59.140625 c 6.905774,0 13.058293,-3.11147 17.138673,-8.01367 z M 29.667969,29.744141 46.615234,46.644531 A 56.710795,56.710795 0 0 1 83.423828,83.353516 L 100.30469,100.18945 A 70.88849,70.88849 0 0 0 29.667969,29.744141 Z M 29.431641,53.630859 A 46.988943,46.988943 0 0 1 76.421875,100.62109 H 62.648438 A 33.216322,33.216322 0 0 0 29.431641,67.404297 Z m 9.722656,27.546875 a 9.7218515,9.7218515 0 0 1 9.722656,9.720704 9.7218515,9.7218515 0 0 1 -9.722656,9.722652 9.7218515,9.7218515 0 0 1 -9.722656,-9.722652 9.7218515,9.7218515 0 0 1 9.722656,-9.720704 z"
+					transform="scale(2)"/>
+			</svg></a>
+		
+	<div class="logo">
+		<a class="logo__link" href="/quickstart/" title="My digital brain" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">My digital brain</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Automatische Dependency Updates mit GitHub Actions und Dependabot</h1>
+			
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#testing-demo1yml-um-den-code-zu-testen">[[listing.testing-demo1-original]]
+[source,text]
+.testing-demo1.yml um den code zu testen</a></li>
+    <li><a href="#dependabotyml">[[listing.dependabot_start]]
+[source,text]
+.dependabot.yml</a></li>
+    <li><a href="#erstellen-eines-labels-mit-der-github-cli">[[listing.github_cli_label]]
+[source,text]
+.Erstellen eines Labels mit der GitHub CLI</a></li>
+    <li><a href="#-gh-label-create-labelname">$ gh label create LABELNAME</a></li>
+    <li><a href="#das-neu-erzeugte-libsversionstoml-file-inkl-der-plugins">[[listing.libs_versions_toml]]
+[source,text]
+.Das neu erzeugte libs.versions.toml File, inkl der Plugins</a></li>
+    <li><a href="#io.spring.dependency-management">[plugins]
+kotlin-jvm = { id = &ldquo;org.jetbrains.kotlin.jvm&rdquo;, version.ref = &ldquo;kotlin&rdquo; }
+kotlin-spring = {id =&ldquo;org.jetbrains.kotlin.plugin.spring&rdquo;, version.ref = &ldquo;kotlin&rdquo;}
+springBoot = { id = &ldquo;org.springframework.boot&rdquo;, version.ref = &ldquo;springboot&rdquo; }
+springDependencyManagement =</a></li>
+    <li><a href="#so-sieht-jetzt-die-plugin-sektion-in-der-buildgradlekts-aus">[[listing.plugins_in_build_gradle]]
+[source,text]
+.So sieht jetzt die Plugin Sektion in der build.gradle.kts aus</a></li>
+    <li><a href="#heading">plugins {
+alias(libs.plugins.kotlin.jvm)
+alias(libs.plugins.kotlin.spring)
+alias(libs.plugins.springDependencyManagement)
+alias(libs.plugins.springBoot)
+}</a></li>
+    <li><a href="#der-enable-auto-merge-workflow">[[listing.enable_automerge]]
+[source,text]
+.Der enable-auto-merge Workflow</a></li>
+    <li><a href="#runs-on-ubuntu-latest">jobs:
+test-demo-1:
+if: |
+!contains(github.event.pull_request.labels.*.name, &lsquo;automatic-merge&rsquo;)
+runs-on: ubuntu-latest</a></li>
+    <li><a href="#das-dependabot-file-mit-einer-privaten-und-einer-öffentlichen-registry">[[listing.dependabot_registry]]
+[source,text]
+.Das Dependabot file mit einer privaten und einer öffentlichen Registry</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<p>In den meisten Firmen ist es immer das gleiche, 1-2 Personen kümmern sich um die Dependencies, während sich viele Kolleg*innen davor drücken und hoffen, dass irgendwer das aktuell hält. Also lieber gleich den ganzen Prozess mit GitHub Actions und Dependabot automatisieren.</p>
+<p>== Das Leid mit veralteten Dependencies
+Wer nachhaltige Software schreiben will, sollte diese immer aktuell halten. Wir erinnern uns noch alle an die unzähligen Projekte, die wir im Dezember 2021 / Januar 2022 aktualisieren mussten, als die log4j Sicherheitslücke (CVE-2021-44228) bekannt wurde. In vielen Projekten wurde log4j in einer verwundbaren Version direkt oder über Dependencies eingesetzt, diese galt es damals zu aktualisieren. Und plötzlich stellte man fest: Mist, die Dependency die man nutzt, hat eine log4j Abhängigkeit, die Dependency lässt sich aber wegen <em>breaking changes</em> nicht upgraden. Deswegen mussten Workarounds eingesetzt werden, um sicherzugehen, dass nur die gepatchte Version von log4j verwendet wurde. Deshalb versuchen gute Software Entwickler*innen die Abhängigkeiten immer auf dem neuesten Stand zu halten. Mein Kollege Dennis Hörsch und ich haben uns deshalb eingehend mit Dependency-Management und entsprechenden Prozessen beschäftigt.</p>
+<p>In dieser Schritt-für-Schritt-Anleitung werde ich euch einen Einblick geben, was die Möglichkeiten sind, was es für Probleme gab, und was es noch immer für Probleme gibt.</p>
+<p>Für die einzelnen Schritte habe ich im Beispielprojekt &laquo;BeispielProject&raquo; jeweils einen Branch angelegt, um alle einzelnen Schritte nachvollziehbar zu machen. In der Anleitung schreibe ich immer dazu, in welchem Branch der beschriebene Stand ist. Der <code>main</code> Branch ist das fertige Endprodukt, dieser ist auch für Dependabot aktiviert.</p>
+<p>Wir starten mit dem Spring Initializer &laquo;SpringInitializer&raquo;, hier wähle ich ein Gradle-Kotlin Projekt mit JDK 21, den Stable Release von Spring Boot und als Sprache Kotlin. In meinem Beispiel Repo ist dies der Branch <em><em>step 0</em></em>.
+Wenn das Projekt aus dem Initializer bekommt, sind die Dependencies in der <code>build.gradle.kts</code> definiert. Gerade in größeren Projekten sieht man immer wieder, dass die Dependencies in der <code>settings.gradle.kts</code> mittels Versions Catalogs definiert werden. Dies hat den Vorteil, dass es  übersichtlich für alle Module definiert werden kann. Um möglichst nahe an der Realität zu bleiben, habe ich dies auch im Beispielprojekt so abgeändert.</p>
+<p>== Pull Requests mit GitHub Actions automatisch testen
+Mit GitHub Actions gibt es jetzt, ähnlich wie bei GitLab Pipelines, die Möglichkeit seine eigenen automatischen Prozesse abzubilden. So kann man komplette CI/CD Pipelines oder automatische Tests bei einem Pull-Request (PR) darüber abbilden. Deswegen legen wir jetzt im Basisverzeichnis des Repos einen Ordner namens <code>.github</code>, in dem sich ein weiterer Ordner namens <code>workflows</code> befindet.</p>
+<p>In den <code>workflows</code> Ordner kommt jetzt eine Workflow-Datei mit folgendem Inhalt:  xref:#listing.testing-demo1-original[].
+Bei jedem neuen Pull-Request auf den <code>main</code> Branch, in dem Änderungen im Pfad <code>demo1</code> wird der Test ausgeführt. Hier wird ein Ubuntu container (<code>runs-on: ubuntu-latest</code>) gestartet, in dem wird erst der Code augecheckt (<code>uses: actions/checkout</code>), dann wird Java (<code>uses: actions/setup-java</code>) mit der JDK 21 (<code>java-version: '21'</code>) verwendet. Bei der Java Distribution habt ihr die Wahl zwischen den gängigen Distributionen.</p>
+<h2 id="testing-demo1yml-um-den-code-zu-testen">[[listing.testing-demo1-original]]
+[source,text]
+.testing-demo1.yml um den code zu testen</h2>
+<p>name: Test Demo 1</p>
+<p>on:
+pull_request:
+paths:</p>
+<ul>
+<li>&lsquo;demo1/**&rsquo;
+branches: [ main ]</li>
+</ul>
+<p>workflow_dispatch: {}</p>
+<p>jobs:
+test-demo-1:
+runs-on: ubuntu-latest
+defaults:
+run:
+working-directory: ./demo1
+steps:</p>
+<ul>
+<li>uses: actions/checkout@v4</li>
+<li>name: Set up JDK 21
+uses: actions/setup-java@v4
+with:
+distribution: &rsquo;liberica'
+java-version: &lsquo;21&rsquo;</li>
+<li>run: ./gradlew clean test</li>
+</ul>
+<hr>
+<p>Dies alles findet ihr im Branch <em><em>step_1</em></em></p>
+<p>Zum Testen fügen wir dem Quellcode einen Kommentar hinzu und pushen dies auf einen extra Branch und erstellen einen PR. Daraufhin kann man sehen, dass der Test läuft. Allerdings zeigt euch GitHub schon an, dass ihr den PR mergen könnt, ohne dass der Test durchgelaufen ist. xref:#bild.one[] Dies wollen wir natürlich nicht, weswegen wir uns jetzt um die Branch-Protection kümmern müssen.</p>
+<p>.Obwohl die Tests laufen, könntet ihr mergen, das ist schlecht. ([Screenshot GitHub])
+[id=&ldquo;bild.one&rdquo;]
+image::screenshot_able_to_merge_with_running_test.jpg[]</p>
+<p>Klickt in dem Projekt auf <em>Settings</em> -&gt; <em>Branches</em> -&gt; <em>Add branch protection rule</em>. Wir wollen den <code>main</code> Branch schützen, also geben wir bei <em>Branch name pattern</em> <code>main</code> an.
+Dann wählen wir <em>Require status checks to pass before merging</em> aus. Das blockiert das Mergen, falls die Tests noch nicht gelaufen oder fehlgeschlagen sind. Ein User mit Adminrechten, kann dies aber auch noch weiterhin, es gibt aber auch die Möglichkeit den Admin dazu zu zwingen die Regel einzuhalten (<em>Do not allow bypassing the above settings</em> in den Branch Protection Rules). <em>Require branches to be up to date before merging</em> wählen wir ebenfalls aus, um zu garantieren, dass immer der neueste Stand von <code>main</code> in einem PR verwendet wird. Dies garantiert uns, dass die Tests auch mit dem aktuellen Stand von <code>main</code> funktionieren. Normalerweise sollte dies ja ein Dev immer selber machen, aber so ist man auf der sicheren Seite.  xref:#bild.two[]</p>
+<!-- raw HTML omitted -->
+<p>Solltet ihr in euren Branch-Protection Rules eure Tests nicht finden, liegt das daran, dass diese zuvor mindestens einmal laufen müssen.
+Hierfür geht ihr auf GitHub auf den Actions Buttons, wählt euren Workflow aus und klickt auf <em>Run workflow</em>, wie ihr es in xref:#bild.ten[] seht</p>
+<!-- raw HTML omitted -->
+<p>Jetzt könnt ihr als Nicht-Admin nicht mehr einen Branch mergen, bevor der Test grün ist. xref:#bild.three[]</p>
+<p>Damit sind wir jetzt bestens vorbereitet um Dependabot einzubauen</p>
+<!-- raw HTML omitted -->
+<p>== Dependabot kümmert sich um eure Dependencies
+Alle Änderungen hierzu befinden sich im Branch <em><em>step_2</em></em></p>
+<p>Dependabot war früher ein eigenes Unternehmen, bevor es im Mai 2019 von GitHub gekauft wurde. Seitdem wird es immer mehr in GitHub fest integriert, was wir uns hier zu Nutze machen. Dependabot analysiert Dependencies, prüft auf CVEs und veraltete Versionen unabhängig von der Sprache. Ihr könnt damit sowohl eure JVM Dependencies tracken, aber auch Abhängigkeiten in npm, GitHub Actions, Docker, pip, go, Terraform und noch einige weitere.&laquo;DependabotEcoystem&raquo;.
+Hierfür fügt ihr im Ordner <code>.github</code> eine Datei namens <code>dependabot.yml</code> hinzu. Diese schaut aus wie in xref:#listing.dependabot_start[]. Wir nutzen in diesem Beispiel nur das <code>gradle</code> Ecosystem. Wir wollen das ganze täglich um 9 Uhr laufen lassen. Derzeit ist es nicht möglich das Scheduling auf Mo-Fr zu beschränken. Ihr könnt es aber alternativ auch nur einmal wöchentlich, während eines Arbeitstages, laufen lassen.</p>
+<h2 id="dependabotyml">[[listing.dependabot_start]]
+[source,text]
+.dependabot.yml</h2>
+<p>version: 2
+updates:</p>
+<ul>
+<li>package-ecosystem: &ldquo;gradle&rdquo;
+directory: &ldquo;/demo1/&rdquo;
+schedule:
+interval: &ldquo;daily&rdquo;
+time: &ldquo;09:00&rdquo;
+open-pull-requests-limit: 100
+labels:
+<ul>
+<li>&ldquo;dependencies&rdquo;</li>
+<li>&ldquo;gradle&rdquo;</li>
+<li>&ldquo;kotlin&rdquo;</li>
+<li>&ldquo;automatic-merge&rdquo;</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>Die Labels <em>dependencies</em>, <em>gradle</em>, <em>kotlin</em> und <em>automatic-merge</em> gibt es noch nicht und müssen erst noch erstellt werden. Diese werden an zu einem von Dependabot erstellten PR hinzugefügt. Ebenso benötigen wir die Labels <em>patch</em>, <em>minor</em> und <em>major</em>, welche die verschiedenen Versionsänderungen darstellen sollen. Labels erstellt ihr am einfachsten mit der GitHub CLI &laquo;GithubCli&raquo; xref:#listing.github_cli_label[] Die Labels <em>dependencies</em>, <em>gradle</em>, <em>kotlin</em> sind nur für euch in einem Projekt um es bei vielen PRs übersichtlich zu halten, benötigt wird es für das Beispiel nicht.</p>
+<h2 id="erstellen-eines-labels-mit-der-github-cli">[[listing.github_cli_label]]
+[source,text]
+.Erstellen eines Labels mit der GitHub CLI</h2>
+<h2 id="-gh-label-create-labelname">$ gh label create LABELNAME</h2>
+<p>Um Dependabot zu testen downgraded ihr in der <code>build.gradle.kts</code> eine Version und pusht das ganze in den <code>main</code> Branch. Auf eurer GitHub Projektseite auf <em>Insights</em> -&gt; <em>Dependency Graph</em> -&gt; <em>Dependabot</em>, wählt ihr dann eure <code>build.gradle.kts</code> aus, und startet Dependabot. Nach einiger Zeit, werdet ihr dann einen PR von Dependabot sehen. In meinem Beispiel wurden gleich mehrere Sachen zum Updaten gefunden. xref:#bild.four[]</p>
+<!-- raw HTML omitted -->
+<p>Nun ändern wir in der extra angelegten <code>settings.gradle.kts</code> eine Version, z.b. die <code>version(&quot;lombok&quot;, &quot;1.18.30&quot;)</code> zur Vorgänger Version <code>1.18.28</code>. Dann pushen wir das zu <code>main</code> und starten wie oben beschrieben Dependabot. Wie ihr sowohl in den logs, diese sind dort zu finden, wo ihr Dependabot startet, als auch auf GitHub unter Pull Requests sehen könnt, ist nichts passiert. Dependabot ignoriert leider die Änderungen in der <code>settings.gradle.kts</code>.</p>
+<p>== Version Catalogs mit Hilfe eines libs.versons.toml File
+Alle Änderungen findet ihr hierzu im <em><em>step_3</em></em> Branch.</p>
+<p>Da die <code>settings.gradle.kts</code> nicht von Dependabot ausgwertet wird, müssen wir anders vorgehen. Seit neuestem unterstützt Dependabot auch Versionskataloge, allerdings muss es hierfür als  <code>.toml</code> File abgelegt werden. Dies ist laut Gradle-Dokumentation entweder in der höchsten Ebene des Projekt möglich (in diesem Fall also in <code>demo1</code>) oder aber im <code>gradle</code> Ordner, welches ich im Beispiel verwende. Wir löschen jetzt also komplett den <code>dependencyResolutionManagement</code> Teil in der <code>settings.gradle.kts</code> und erstellen wie folgt die <code>libs.versions.toml</code> Datei: xref:#listing.libs_versions_toml[]:</p>
+<h2 id="das-neu-erzeugte-libsversionstoml-file-inkl-der-plugins">[[listing.libs_versions_toml]]
+[source,text]
+.Das neu erzeugte libs.versions.toml File, inkl der Plugins</h2>
+<p>[versions]
+jacksonKotlin = &ldquo;2.16.1&rdquo;
+junit-jupiter = &ldquo;5.10.1&rdquo;
+hamkrest = &ldquo;1.8.0.1&rdquo;
+kotlin = &ldquo;1.9.22&rdquo;
+kotlinReflect = &ldquo;1.9.22&rdquo;
+lombok = &ldquo;1.18.28&rdquo;
+springboot = &ldquo;3.2.1&rdquo;
+springDependencyManagementVersion = &ldquo;1.1.1&rdquo;</p>
+<p>[libraries]
+springBootStarterWeb = { module = &ldquo;org.springframework.boot:spring-boot-starter-web&rdquo;, version.ref = &ldquo;springboot&rdquo; }
+springBootStarterTest = { module = &ldquo;org.springframework.boot:spring-boot-starter-test&rdquo;, version.ref = &ldquo;springboot&rdquo; }
+jacksonKotlinModule = { module = &ldquo;com.fasterxml.jackson.module:jackson-module-kotlin&rdquo;, version.ref = &ldquo;jacksonKotlin&rdquo; }
+kotlinReflect = { module = &ldquo;org.jetbrains.kotlin:kotlin-reflect&rdquo;, version.ref = &ldquo;kotlinReflect&rdquo; }
+lombok = { module = &ldquo;org.projectlombok:lombok&rdquo;, version.ref = &ldquo;lombok&rdquo; }</p>
+<h2 id="io.spring.dependency-management" version.ref="springDependencyManagementVersion">[plugins]
+kotlin-jvm = { id = &ldquo;org.jetbrains.kotlin.jvm&rdquo;, version.ref = &ldquo;kotlin&rdquo; }
+kotlin-spring = {id =&ldquo;org.jetbrains.kotlin.plugin.spring&rdquo;, version.ref = &ldquo;kotlin&rdquo;}
+springBoot = { id = &ldquo;org.springframework.boot&rdquo;, version.ref = &ldquo;springboot&rdquo; }
+springDependencyManagement =</h2>
+<p>Die bis dato noch vorhandenen plugins, schreiben wir auch in das <code>.toml</code> File, die <code>build.gradle.kts</code> verweist dann, ähnlich wie die Dependencies nur noch auf die <code>libs.plugins.*</code>. xref:#listing.plugins_in_build_gradle[]</p>
+<h2 id="so-sieht-jetzt-die-plugin-sektion-in-der-buildgradlekts-aus">[[listing.plugins_in_build_gradle]]
+[source,text]
+.So sieht jetzt die Plugin Sektion in der build.gradle.kts aus</h2>
+<h2 id="heading">plugins {
+alias(libs.plugins.kotlin.jvm)
+alias(libs.plugins.kotlin.spring)
+alias(libs.plugins.springDependencyManagement)
+alias(libs.plugins.springBoot)
+}</h2>
+<p>Wenn wir jetzt, wie vorher beschrieben, den Dependabotprozess manuell anstoßen, wird ein PR für die veraltete <code>lombok</code> Dependency erstellt.</p>
+<p>== Die PRs automatisch mergen
+Alle Änderungen findet ihr hierzu im <em><em>step_4</em></em> Branch.</p>
+<p>Die PRs werden jetzt alle automatisch erstellt, wie wir uns das vorgestellt haben. Jetzt fehlt nur noch der entscheidende Schritt: Das automatische Mergen der Dependency Pull-Requests. Um dies vorzubereiten, müssen wir noch 2 Sachen in den General-Settings ändern: xref:#bild.five[]</p>
+<!-- raw HTML omitted -->
+<p>Wir erstellen eine neue Datei <code>enable-auto-merge.yml</code>, diese wird ebenfall in <code>workflows</code> abgespeichert, siehe xref:#listing.enable_automerge[]</p>
+<h2 id="der-enable-auto-merge-workflow">[[listing.enable_automerge]]
+[source,text]
+.Der enable-auto-merge Workflow</h2>
+<p>name: Enables auto-merge on dependency pull requests
+&ldquo;on&rdquo;:
+pull_request:
+branches:</p>
+<ul>
+<li>main
+paths:</li>
+<li>&lsquo;demo1/**&rsquo;
+workflow_dispatch: {}</li>
+</ul>
+<p>jobs:
+enable-automerge:
+if: |
+contains(github.event.pull_request.labels.<em>.name, &lsquo;automatic-merge&rsquo;)
+&amp;&amp; (
+contains(github.event.pull_request.labels.</em>.name, &lsquo;minor&rsquo;)
+|| contains(github.event.pull_request.labels.*.name, &lsquo;patch&rsquo;)
+)
+runs-on: ubuntu-latest
+permissions:
+contents: write
+pull-requests: write
+steps:</p>
+<ul>
+<li>name: Enable auto-merge
+run: |
+gh pr merge &ndash;merge &ndash;auto &ldquo;$PR_URL&rdquo;
+env:
+PR_URL: ${{github.event.pull_request.html_url}}
+GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}</li>
+</ul>
+<hr>
+<p>Um den Workflow in den Branch-Protection-Rules auswählen zu können müssen wir ihn jetzt noch manuell auslösen.</p>
+<p>Findet Dependabot mehr als nur einen PR, würde beim 2. PR, nachdem der 1. gemerged wurde folgendes stehen: <em>This branch is out-of-date with the base branch</em>. Aus diesem Grund macht Dependabot ein force-push von <code>main</code> in den jeweiligen PR. xref:#bild.six[] Danach laufen dann die Tests von vorne los, und der Code wird bei Erfolg automatisch gemerged.</p>
+<!-- raw HTML omitted -->
+<p>Manchmal braucht ein Force-Push etwas Zeit, man kann dann das ganze auch per Button selber erledigen.</p>
+<p>== Besonderheiten in einem Monorepo
+Und jetzt noch ein Monorepo Beispiel, das fertige Monorepoprojekt findet ihr hier.&laquo;BeispielProjectMonorepo&raquo;</p>
+<p>Wenn Teams nicht ausschließlich mit <em>pairing</em> und <em>trunk-based</em>, also nur auf dem <code>main</code> branch arbeiten, sondern klassisch mit Branches und Pull-Requests, sollen nur die eigenen Tests laufen und nicht die Tests der anderen Projekte.</p>
+<p>Um dies zu erreichen, habe ich alle Workflows dupliziert, einmal einen normalen Test, <code>testing-demo1.yml</code> und dann den gleiche noch mal mit <code>auto-merge-testing-demo1.yml</code>. Der Unterschied zwischen den Workflows ist nur, wann dieser laufen soll, und wann es übersprungen (<em>skipped</em>) werden soll. <code>testing-demo1.yml</code> soll nur bei Änderungen in Demo1 getriggert werden xref:#listing.normal_test_demo_1[]. <code>auto-merge-testing-demo1.yml</code> soll aber bei allen Projektänderungen getriggert werden.xref:#listing.auto-merge-test_demo_1[], Um das skipping zu erreichen, überprüfen wir in beiden Workflows noch, ob das Label <code>automatic-merge</code> gesetzt ist, oder ob es nicht gesetzt ist sowie ob es das richtige Projekt ist.</p>
+<p>[[listing.normal_test_demo_1]]
+[source,text]
+.So schaut der Beginn von testing-demo1.yml aus</p>
+<hr>
+<p>name: Test Demo 1</p>
+<p>on:
+pull_request:
+paths:</p>
+<ul>
+<li>
+<p>&lsquo;demo1/**&rsquo;</p>
+</li>
+<li>
+<p>&lsquo;.github/**&rsquo;
+branches: [ main ]</p>
+<p>workflow_dispatch: {}</p>
+</li>
+</ul>
+<h2 id="runs-on-ubuntu-latest">jobs:
+test-demo-1:
+if: |
+!contains(github.event.pull_request.labels.*.name, &lsquo;automatic-merge&rsquo;)
+runs-on: ubuntu-latest</h2>
+<p>[[listing.auto-merge-test_demo_1]]
+[source,text]
+.So schaut der Beginn von auto-merge-testing-demo1.yml aus</p>
+<hr>
+<p>name: Auto-Merge Test Demo 1</p>
+<p>on:
+pull_request:
+paths:</p>
+<ul>
+<li>&lsquo;demo1/**&rsquo;</li>
+<li>&lsquo;demo2/**&rsquo;</li>
+<li>&lsquo;demo3/**&rsquo;</li>
+<li>&lsquo;.github/**&rsquo;
+branches: [ main ]
+workflow_dispatch: {}</li>
+</ul>
+<p>jobs:
+auto-merge-test-demo-1:
+if: |
+contains(github.event.pull_request.labels.<em>.name, &lsquo;demo1&rsquo;) ||
+contains(github.event.pull_request.labels.</em>.name, &lsquo;automatic-merge&rsquo;)
+runs-on: ubuntu-latest</p>
+<hr>
+<p>Wenn wir jetzt testweise in jedem Projekt eine Dependency downgraden, sehen wir schön in der xref:#bild.eight[], dass alle 3 Dependencies in den Projekten geupdated werden.</p>
+<!-- raw HTML omitted -->
+<p>Erstellt man selber einen PR, mit einer kleinen Änderung in einem Projekt, so sieht man zwar, dass alle <em>auto-merge</em> Tests gestartet werden, aber da dann die Bestimmungen nicht erfüllt sind, diese geskipped werden. xref:#bild.nine[],</p>
+<p>.Nur die benötigten Tests laufen, der Rest wird geskipped ([Screenshot GitHub])
+[id=&ldquo;bild.nine&rdquo;]
+image::screenshot_only_code_test_running.jpg[]</p>
+<p>== Und was ist mit Maven?
+In einem Maven Projekt funktioniert das ganze exakt genauso. Der einzige Unterschied ist, dass ihr in eurem Testworkflow statt <code>./gradlew clean build</code> nur <code>mvn clean test</code> verwendet. Ein fertiges Beispielprojekt könnt ihr euch hier anschauen &laquo;BeispielProjektMaven&raquo;</p>
+<p>== Probleme &amp; Tricks
+Ab und an kann es passieren, dass es zu einem <em>merge-conflict</em> kommt. xref:#bild.eleven[]. Manchmal löst sich so ein Problem von selbst, ähnlich wie bei <em>This branch is out-of-date with the base branch</em>, da Dependabot die offenen PRs regelmäßig force-pushed, wenn es etwas neueres gibt. Ansonsten reicht bei einem Konflict oft ein <code>@dependabot recreate</code> in das Kommentarfeld des PRs und Dependabot erstellt das ganze neu.</p>
+<p>.Leider gab es einen merge-conflict ([Screenshot GitHub])
+[id=&ldquo;bild.eleven&rdquo;]
+image::screenshot_conflicts.jpg[]</p>
+<p>Manchmal benutzen Projekte private oder öffentliche, aber Non-Standard Registries (wie z.B. die confluent Registry), die müsst ihr im <code>dependabot.yml</code> .xref:#listing.dependabot_registry[],  angeben. Die Secrets hierfür speichert ihr in GitHub in den Secrets ab.</p>
+<h2 id="das-dependabot-file-mit-einer-privaten-und-einer-öffentlichen-registry">[[listing.dependabot_registry]]
+[source,text]
+.Das Dependabot file mit einer privaten und einer öffentlichen Registry</h2>
+<p>version: 2
+registries:
+secret-private-registry:
+type: maven-repository
+url: <a href="https://joergi.io/registry/libs-release/">https://joergi.io/registry/libs-release/</a>
+username: ${{ secrets.MY_REGISTRY_USERNAME }}
+password: ${{ secrets.MY_REGISTRY_PASSWORD }}
+confluent-repo:
+type: maven-repository
+url: <a href="https://packages.confluent.io/maven/">https://packages.confluent.io/maven/</a>
+updates:</p>
+<ul>
+<li>package-ecosystem: &ldquo;gradle&rdquo;
+directory: &ldquo;/my-project/&rdquo;
+<ul>
+<li>secret-private-registry</li>
+<li>confluent-repo
+labels:
+&hellip;&hellip;</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>Solltet ihr in einem Monorepo arbeiten, empfehle ich, dass ihr die Dependabot Zeiten der einzelnen Projekte auf jeden Fall versetzt, dadurch entstehen weniger Merge Konflikte.</p>
+<p>Wie oben schon erwähnt, wäre es schön, wenn Dependabot die <code>settings.gradle.kts</code> auswerten würde. Dann liese sich in einem Monorepo mit 3 Projekten statt 3 <code>.toml</code> Files das ganze auf ein File reduzieren. Hierfür gibt es schon Dependabot Tickets &laquo;DependabotTicket1&raquo;&laquo;DependabotTicket2&raquo; auf GitHub.</p>
+<p>[bibliography]
+== Quellen</p>
+<ul>
+<li>[[[BeispielProject,1]]] Beispiel Projekt: link:https://github.com/joergi/dependencies[]</li>
+<li>[[[SpringInitializer,2]]] Spring initializer: link:https://start.spring.io/[]</li>
+<li>[[[DependabotEcoystem,3]]] Dependabot Ecosystem: link:https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#package-ecosystem[]</li>
+<li>[[[GithubCli,4]]] Github CLI <a href="https://cli.github.com/%5B%5D">https://cli.github.com/[]</a></li>
+<li>[[[BeispielProjectMonorepo,5]]] Monorepo Beispiel: link:https://github.com/joergi/dependencies-monorepo[]</li>
+<li>[[[BeispielProjektMaven,6]]] Mavenbeispielprojekt link:https://github.com/joergi/dependencies-with-maven[]</li>
+<li>[[[DependabotTicket1,7]]] Dependabot Ticket: link:https://github.com/dependabot/dependabot-core/issues/6831[]</li>
+<li>[[[DependabotTicket2,8]]] Dependabot Ticket: link:https://github.com/dependabot/dependabot-core/issues/1164[]</li>
+</ul>
+<p>== Über den Autoren
+Jörg Liedl arbeitet als Senior Software Entwickler bei dem Wissenschaftsverlag SpringerNature AG, Das Java-Ökosystem ist seine Heimat, wo mittlerweile aber Kotlin das gute alte Java verdrängt hat. Er bevorzugt es Sachen zu automatisieren, um den eigenen Arbeitsalltag angenehmer zu gestalten.</p>
+<p>image::ja_bild_joerg-liedl.jpg[]</p>
+
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Joergi avatar" src="https://avatars.githubusercontent.com/u/1439809?s=400&amp;u=344ee7934e0701207dd2dac5a436509ea401d23c&amp;v=4" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Joergi</span>
+	</div>
+	<div class="authorbox__description">
+		as the brain can&rsquo;t remember anything - this blog is my memory
+	</div>
+</div>
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 My digital brain.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<br/>
+			<a href="https://github.com/joergi">github</a> | <a rel="me" href="https://chaos.social/@joergi">Mastodon</a> | <a href="https://bsky.app/profile/joergi.bsky.social">bluesky</a> | <a href="https://twitter.com/joergi_77">twitter</a> | <a href="https://stackoverflow.com/users/863403/joergi">stackoverflow</a><br/>
+			<font style="color:#222222; font-size:0.8em">the nice github logo on top left is build by <a href="https://github.com/tholman/github-corners">@tholman</a> |
+				the nice RSS logo on top is build by <a href="https://rss-corners.joergi.io">@joergi</a> | got some input from the github page from <a href="https://github.com/dzhavat/dzhavat.github.io">dzhavat</a></font>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/quickstart/js/menu.js"></script>
+</body>
+</html>

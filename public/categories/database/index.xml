@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on My digital brain</title>
+    <link>http://localhost:1313/quickstart/categories/database/</link>
+    <description>Recent content in Database on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/quickstart/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using MongoRepository with more than one sorting with Spring Boot</title>
+      <link>http://localhost:1313/quickstart/posts/2019-09-09-using-mongorepository-with-more-than-one-sorting-with-spring/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/posts/2019-09-09-using-mongorepository-with-more-than-one-sorting-with-spring/</guid>
+      <description>Sometimes you need a List of the Database to be sorted by more than one column.&#xA;If you connect to your database with the org.springframework.data.mongodb.repository.MongoRepository you can only give one org.springframework.data.domain.Sort to a search method.&#xA;This is how the Repository class looks like:&#xA;@Repository public interface TestRepository extends MongoRepository&amp;lt;Test, Long&amp;gt; { public List&amp;lt;Score&amp;gt; findAllByTestName(String testName, Sort sort ); } test has some column &amp;ldquo;abc&amp;rdquo; and some column &amp;ldquo;def&amp;rdquo; and some &amp;ldquo;ghi&amp;rdquo; &amp;hellip;.</description>
+    </item>
+  </channel>
+</rss>

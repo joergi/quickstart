@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howto on My digital brain</title>
+    <link>http://localhost:1313/quickstart/categories/howto/</link>
+    <description>Recent content in Howto on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/quickstart/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GISCUS - You can now add comments to my blog</title>
+      <link>http://localhost:1313/quickstart/posts/2023-03-21-giscus-you-can-comment-now-in-the-blog/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/posts/2023-03-21-giscus-you-can-comment-now-in-the-blog/</guid>
+      <description>When I was researching some stuff for a blog post about Github Actions, I stumbled over the blog from Github user @nicolasiensen.&#xA;When I read the post, I saw that people were able to add comments with being logged into Github.&#xA;Something like this I have seen a long time ago, but this was so complicated, I just ignored it.&#xA;But now as I saw in his blog , it&amp;rsquo;s super ways, thanks to Giscus</description>
+    </item>
+    <item>
+      <title>Docker cheat sheet</title>
+      <link>http://localhost:1313/quickstart/posts/2023-01-26-docker-cheat-sheet/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/posts/2023-01-26-docker-cheat-sheet/</guid>
+      <description> Stop all containers - docker stop $(docker ps -a -q) Debug into running container - docker exec -it container_name /bin/bash Debug into docker image - docker run --rm -it image_name /bin/bash Remove all docker dontainers - docker rm -f $(docker ps -a -q) remove all images you need to download everything again) - docker rmi -f $(docker images -q) delete all docker network bridges - docker network prune </description>
+    </item>
+    <item>
+      <title>Install patch for Thinkpad Trackpoint Keyboard II</title>
+      <link>http://localhost:1313/quickstart/posts/2022-10-14-install-patch-for-thinkpad-trackpoint-keyboard-ii/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/posts/2022-10-14-install-patch-for-thinkpad-trackpoint-keyboard-ii/</guid>
+      <description>New Thinkpad Trackpoint Keyboard II (i maybe should have cleaned it, before the picture&amp;hellip;)&#xA;I got my first Thinkpad Trackpoint keyboard as a farwell gift from a company I worked for (thanks &amp;lt;3 ).&#xA;I don&amp;rsquo;t use any mouse, I just use the red &amp;ldquo;joystick&amp;rdquo; (called trackpoint) to navigate. For users which aren&amp;rsquo;t used to it, it&amp;rsquo;s a horror if they have to use my keyboard. But if you are used to it, you don&amp;rsquo;t wanna work without it anymore.</description>
+    </item>
+    <item>
+      <title>Building a raspberry pi streaming cam</title>
+      <link>http://localhost:1313/quickstart/posts/2021-07-23-building-a-raspberry-pi-streaming-cam/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/posts/2021-07-23-building-a-raspberry-pi-streaming-cam/</guid>
+      <description>the setup This is how my setup looks like: as webcam I use a Waveshare 10300 RPi Camera (E)&#xA;(bought it here, unpaid advertisment)&#xA;Install raspberry pi image Download the images from the raspberry pi website&#xA;copy it to your sd card.&#xA;on the webpage they recomment to install the rpi-manager via sudo apt install rpi-imager, but for me it wasn&amp;rsquo;t working because of dependency problems.&#xA;So I installed it the classic way:</description>
+    </item>
+    <item>
+      <title>Pushing container to Docker hub</title>
+      <link>http://localhost:1313/quickstart/posts/2020-10-04-pushing-container-to-dockerhub/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/posts/2020-10-04-pushing-container-to-dockerhub/</guid>
+      <description>First build an docker container and run it afterwards so you see it with docker ps -a As an example, I use the container for the MagpiDownloader&#xA;docker build -f Dockerfile . -t mag-pi-downloader docker run -v $(pwd)/issues:/app/issues/ mag-pi-downloader -f 131 After that is done, have a look, for all the docker container:&#xA;$ docker ps -a CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES ea901f38e328 mag-pi-downloader &amp;#34;/bin/sh /app/entryp…&amp;#34; About a minute ago Exited (0) About a minute ago exciting_feistel As you can see the newest has the container id ea901f38e328</description>
+    </item>
+  </channel>
+</rss>

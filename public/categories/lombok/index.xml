@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lombok on My digital brain</title>
+    <link>http://localhost:1313/quickstart/categories/lombok/</link>
+    <description>Recent content in Lombok on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/quickstart/categories/lombok/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exclude one element from Lombok model-wide setter and getter</title>
+      <link>http://localhost:1313/quickstart/posts/2020-06-07-exclude-one-element-from-lombok-modelwide-setter-and-getter/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quickstart/posts/2020-06-07-exclude-one-element-from-lombok-modelwide-setter-and-getter/</guid>
+      <description>Lets say you have a User model with Lombok modelwide @Getter and @Setter:&#xA;@Getter @Setter public class User { @Id private String id; private String username; private String email; private String password; } setId(String id) makes no sense. Normally the id is set by the DB, so it makes no sense to set it.&#xA;So you can use @Setter(AccessLevel.NONE) (or @Getter(AccessLevel.NONE)) to exclude it from the Lombok setters (or getters)</description>
+    </item>
+  </channel>
+</rss>
