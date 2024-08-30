@@ -8,7 +8,7 @@ date: 2015-05-20
 
 ![your hd is full, make space in /boot](../images/no_hdd_space_left_full.png "your hd is full, make space in /boot")    
 your hd is full, make space in /boot
-
+aaaa
 make a
 ```bash
 cd /boot ls -la

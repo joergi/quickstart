@@ -188,7 +188,7 @@
       <link>https://code.joergi.io/quickstart/posts/2015-05-20-no-hdd-space-left-for-ubuntu-update-make-some-space-at-boot/</link>
       <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
       <guid>https://code.joergi.io/quickstart/posts/2015-05-20-no-hdd-space-left-for-ubuntu-update-make-some-space-at-boot/</guid>
-      <description>your hd is full, make space in /boot&#xA;make a&#xA;cd /boot ls -la so you see the `/boot` folder now delete the stuff you don&amp;rsquo;t need anymore:&#xA;sudo aptitude remove linux-image-3.13.0-49-generic sudo apt-get remove ... (ls -la after deleting the linux kernel image)</description>
+      <description>your hd is full, make space in /boot aaaa make a&#xA;cd /boot ls -la so you see the `/boot` folder now delete the stuff you don&amp;rsquo;t need anymore:&#xA;sudo aptitude remove linux-image-3.13.0-49-generic sudo apt-get remove ... (ls -la after deleting the linux kernel image)</description>
     </item>
     <item>
       <title>Finding the biggest folders</title>
