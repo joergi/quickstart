@@ -6,7 +6,7 @@ tags: [boot, diskspace]
 date: 2015-05-20
 ---
 
-![alt text](https://joergi77.files.wordpress.com/2015/05/hd_full.png "your hd is full, make space in /boot")    
+![alt text](../images/no_hdd_space_left_full.png "your hd is full, make space in /boot")    
 your hd is full, make space in /boot
 
 make a
