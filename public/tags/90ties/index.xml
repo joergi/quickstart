@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>90ties on My digital brain</title>
+    <link>https://code.joergi.io/quickstart/tags/90ties/</link>
+    <description>Recent content in 90ties on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://code.joergi.io/quickstart/tags/90ties/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to play The Curse of Monkey Island on Linux</title>
+      <link>https://code.joergi.io/quickstart/posts/2020-04-14-how-to-play-the-curse-of-monkey-island-on-linux/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2020-04-14-how-to-play-the-curse-of-monkey-island-on-linux/</guid>
+      <description>As I was always a LucasArts fan in the 90ties, I wanted to use my &amp;ldquo;free time&amp;rdquo; (thanks to the Corona lockdown) for playing this old classics.&#xA;I bought Monkey Island 1 + 2 on Steam - with the Proton helper, it starts all easy, out of the box.&#xA;Monkey Island 3 and 4 I was buying at Gog (it was cheaper) - no help here to get it running for Linux.</description>
+    </item>
+  </channel>
+</rss>

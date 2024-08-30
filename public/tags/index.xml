@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My digital brain</title>
+    <link>https://code.joergi.io/quickstart/tags/</link>
+    <description>Recent content in Tags on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://code.joergi.io/quickstart/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://code.joergi.io/quickstart/tags/blog/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giscus</title>
+      <link>https://code.joergi.io/quickstart/tags/giscus/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/giscus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://code.joergi.io/quickstart/tags/github/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Howto</title>
+      <link>https://code.joergi.io/quickstart/tags/howto/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/howto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://code.joergi.io/quickstart/tags/docker/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kernel</title>
+      <link>https://code.joergi.io/quickstart/tags/kernel/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/kernel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keyboard</title>
+      <link>https://code.joergi.io/quickstart/tags/keyboard/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://code.joergi.io/quickstart/tags/linux/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thinkpad</title>
+      <link>https://code.joergi.io/quickstart/tags/thinkpad/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/thinkpad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trackpoint</title>
+      <link>https://code.joergi.io/quickstart/tags/trackpoint/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/trackpoint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cam</title>
+      <link>https://code.joergi.io/quickstart/tags/cam/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/cam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberrypi</title>
+      <link>https://code.joergi.io/quickstart/tags/raspberrypi/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streaming</title>
+      <link>https://code.joergi.io/quickstart/tags/streaming/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/streaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Registry</title>
+      <link>https://code.joergi.io/quickstart/tags/registry/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/registry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://code.joergi.io/quickstart/tags/java/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lombok</title>
+      <link>https://code.joergi.io/quickstart/tags/lombok/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/lombok/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>90ties</title>
+      <link>https://code.joergi.io/quickstart/tags/90ties/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/90ties/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monkey Island</title>
+      <link>https://code.joergi.io/quickstart/tags/monkey-island/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/monkey-island/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retro</title>
+      <link>https://code.joergi.io/quickstart/tags/retro/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/retro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authentication</title>
+      <link>https://code.joergi.io/quickstart/tags/authentication/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Verified User</title>
+      <link>https://code.joergi.io/quickstart/tags/verified-user/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/verified-user/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>https://code.joergi.io/quickstart/tags/sorting/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/sorting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distro</title>
+      <link>https://code.joergi.io/quickstart/tags/distro/</link>
+      <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/distro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boot</title>
+      <link>https://code.joergi.io/quickstart/tags/boot/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diskspace</title>
+      <link>https://code.joergi.io/quickstart/tags/diskspace/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/tags/diskspace/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

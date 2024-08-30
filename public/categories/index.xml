@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on My digital brain</title>
+    <link>https://code.joergi.io/quickstart/categories/</link>
+    <description>Recent content in Categories on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://code.joergi.io/quickstart/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://code.joergi.io/quickstart/categories/blog/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giscus</title>
+      <link>https://code.joergi.io/quickstart/categories/giscus/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/giscus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://code.joergi.io/quickstart/categories/github/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Howto</title>
+      <link>https://code.joergi.io/quickstart/categories/howto/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/howto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cheatsheet</title>
+      <link>https://code.joergi.io/quickstart/categories/cheatsheet/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/cheatsheet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://code.joergi.io/quickstart/categories/docker/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://code.joergi.io/quickstart/categories/linux/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberrypi</title>
+      <link>https://code.joergi.io/quickstart/categories/raspberrypi/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/raspberrypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Registry</title>
+      <link>https://code.joergi.io/quickstart/categories/registry/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/registry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://code.joergi.io/quickstart/categories/java/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lombok</title>
+      <link>https://code.joergi.io/quickstart/categories/lombok/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/lombok/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaming</title>
+      <link>https://code.joergi.io/quickstart/categories/gaming/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How-To</title>
+      <link>https://code.joergi.io/quickstart/categories/how-to/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/how-to/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retrogaming</title>
+      <link>https://code.joergi.io/quickstart/categories/retrogaming/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/retrogaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer</title>
+      <link>https://code.joergi.io/quickstart/categories/developer/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/developer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>https://code.joergi.io/quickstart/categories/database/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mongo</title>
+      <link>https://code.joergi.io/quickstart/categories/mongo/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/mongo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Boot</title>
+      <link>https://code.joergi.io/quickstart/categories/spring-boot/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/spring-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basics</title>
+      <link>https://code.joergi.io/quickstart/categories/basics/</link>
+      <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problems</title>
+      <link>https://code.joergi.io/quickstart/categories/problems/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/problems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>https://code.joergi.io/quickstart/categories/ubuntu/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/categories/ubuntu/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

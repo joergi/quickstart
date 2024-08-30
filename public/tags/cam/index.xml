@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cam on My digital brain</title>
+    <link>https://code.joergi.io/quickstart/tags/cam/</link>
+    <description>Recent content in Cam on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://code.joergi.io/quickstart/tags/cam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a raspberry pi streaming cam</title>
+      <link>https://code.joergi.io/quickstart/posts/2021-07-23-building-a-raspberry-pi-streaming-cam/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2021-07-23-building-a-raspberry-pi-streaming-cam/</guid>
+      <description>the setup This is how my setup looks like: as webcam I use a Waveshare 10300 RPi Camera (E)&#xA;(bought it here, unpaid advertisment)&#xA;Install raspberry pi image Download the images from the raspberry pi website&#xA;copy it to your sd card.&#xA;on the webpage they recomment to install the rpi-manager via sudo apt install rpi-imager, but for me it wasn&amp;rsquo;t working because of dependency problems.&#xA;So I installed it the classic way:</description>
+    </item>
+  </channel>
+</rss>

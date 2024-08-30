@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Driafts on My digital brain</title>
+    <link>https://code.joergi.io/quickstart/driaft/</link>
+    <description>Recent content in Driafts on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://code.joergi.io/quickstart/driaft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatische Dependency Updates mit GitHub Actions und Dependabot</title>
+      <link>https://code.joergi.io/quickstart/driaft/2024-06-21-ja-aritkel-dependabot/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/driaft/2024-06-21-ja-aritkel-dependabot/</guid>
+      <description>In den meisten Firmen ist es immer das gleiche, 1-2 Personen kümmern sich um die Dependencies, während sich viele Kolleg*innen davor drücken und hoffen, dass irgendwer das aktuell hält. Also lieber gleich den ganzen Prozess mit GitHub Actions und Dependabot automatisieren.&#xA;== Das Leid mit veralteten Dependencies Wer nachhaltige Software schreiben will, sollte diese immer aktuell halten. Wir erinnern uns noch alle an die unzähligen Projekte, die wir im Dezember 2021 / Januar 2022 aktualisieren mussten, als die log4j Sicherheitslücke (CVE-2021-44228) bekannt wurde.</description>
+    </item>
+  </channel>
+</rss>

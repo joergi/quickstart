@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My digital brain</title>
+    <link>https://code.joergi.io/quickstart/posts/</link>
+    <description>Recent content in Posts on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://code.joergi.io/quickstart/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add new Tasmota device to Home Assistant with MQTT</title>
+      <link>https://code.joergi.io/quickstart/posts/2024-04-11-add-new-tasmota-device-to-home-assistant/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2024-04-11-add-new-tasmota-device-to-home-assistant/</guid>
+      <description>Pre-Requirements To add a new Tasmota device to the Home Assistant (HA), I assume that:&#xA;HA is installed An MQTT Broker is running and an user in HA is already registered/in use Already one other Tasmota device is connected to the HA (so you know it&amp;rsquo;s working) The new Tasmota device is already connected to the local HA WiFi Already has upgraded to the newest firmware Todos: Give device a better name Click Configuration -&amp;gt; Configure Other -&amp;gt; and enter at Device Name a name which makes sense</description>
+    </item>
+    <item>
+      <title>Privacy friendly online alternatives</title>
+      <link>https://code.joergi.io/quickstart/posts/2023-09-01-privacy-friendly-online-alternatives/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2023-09-01-privacy-friendly-online-alternatives/</guid>
+      <description>Please let me know, if you have some good alternatives&#xA;Productivity&#xA;Cryptpad - instead of google docs / google sheets etc&amp;hellip; selfhosting is possible Jitsi - instead of Google Meet / Zoom and so on. selfhosting is possible etherpad - as online collaboration pad selfhosting is possible Social Networks&#xA;Friendica instead of Facebook selfhosting is possible Mastodon instead of Twitter/X selfhosting is possible Peertube instead of YouTube selfhosting is possible Pixelfed instead of Instagram selfhosting is possible Others:</description>
+    </item>
+    <item>
+      <title>GISCUS - You can now add comments to my blog</title>
+      <link>https://code.joergi.io/quickstart/posts/2023-03-21-giscus-you-can-comment-now-in-the-blog/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2023-03-21-giscus-you-can-comment-now-in-the-blog/</guid>
+      <description>When I was researching some stuff for a blog post about Github Actions, I stumbled over the blog from Github user @nicolasiensen.&#xA;When I read the post, I saw that people were able to add comments with being logged into Github.&#xA;Something like this I have seen a long time ago, but this was so complicated, I just ignored it.&#xA;But now as I saw in his blog , it&amp;rsquo;s super ways, thanks to Giscus</description>
+    </item>
+    <item>
+      <title>Docker cheat sheet</title>
+      <link>https://code.joergi.io/quickstart/posts/2023-01-26-docker-cheat-sheet/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2023-01-26-docker-cheat-sheet/</guid>
+      <description> Stop all containers - docker stop $(docker ps -a -q) Debug into running container - docker exec -it container_name /bin/bash Debug into docker image - docker run --rm -it image_name /bin/bash Remove all docker dontainers - docker rm -f $(docker ps -a -q) remove all images you need to download everything again) - docker rmi -f $(docker images -q) delete all docker network bridges - docker network prune </description>
+    </item>
+    <item>
+      <title>Install patch for Thinkpad Trackpoint Keyboard II</title>
+      <link>https://code.joergi.io/quickstart/posts/2022-10-14-install-patch-for-thinkpad-trackpoint-keyboard-ii/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2022-10-14-install-patch-for-thinkpad-trackpoint-keyboard-ii/</guid>
+      <description>New Thinkpad Trackpoint Keyboard II (i maybe should have cleaned it, before the picture&amp;hellip;)&#xA;I got my first Thinkpad Trackpoint keyboard as a farwell gift from a company I worked for (thanks &amp;lt;3 ).&#xA;I don&amp;rsquo;t use any mouse, I just use the red &amp;ldquo;joystick&amp;rdquo; (called trackpoint) to navigate. For users which aren&amp;rsquo;t used to it, it&amp;rsquo;s a horror if they have to use my keyboard. But if you are used to it, you don&amp;rsquo;t wanna work without it anymore.</description>
+    </item>
+    <item>
+      <title>Building a raspberry pi streaming cam</title>
+      <link>https://code.joergi.io/quickstart/posts/2021-07-23-building-a-raspberry-pi-streaming-cam/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2021-07-23-building-a-raspberry-pi-streaming-cam/</guid>
+      <description>the setup This is how my setup looks like: as webcam I use a Waveshare 10300 RPi Camera (E)&#xA;(bought it here, unpaid advertisment)&#xA;Install raspberry pi image Download the images from the raspberry pi website&#xA;copy it to your sd card.&#xA;on the webpage they recomment to install the rpi-manager via sudo apt install rpi-imager, but for me it wasn&amp;rsquo;t working because of dependency problems.&#xA;So I installed it the classic way:</description>
+    </item>
+    <item>
+      <title>Pushing container to Docker hub</title>
+      <link>https://code.joergi.io/quickstart/posts/2020-10-04-pushing-container-to-dockerhub/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2020-10-04-pushing-container-to-dockerhub/</guid>
+      <description>First build an docker container and run it afterwards so you see it with docker ps -a As an example, I use the container for the MagpiDownloader&#xA;docker build -f Dockerfile . -t mag-pi-downloader docker run -v $(pwd)/issues:/app/issues/ mag-pi-downloader -f 131 After that is done, have a look, for all the docker container:&#xA;$ docker ps -a CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES ea901f38e328 mag-pi-downloader &amp;#34;/bin/sh /app/entryp…&amp;#34; About a minute ago Exited (0) About a minute ago exciting_feistel As you can see the newest has the container id ea901f38e328</description>
+    </item>
+    <item>
+      <title>Exclude one element from Lombok model-wide setter and getter</title>
+      <link>https://code.joergi.io/quickstart/posts/2020-06-07-exclude-one-element-from-lombok-modelwide-setter-and-getter/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2020-06-07-exclude-one-element-from-lombok-modelwide-setter-and-getter/</guid>
+      <description>Lets say you have a User model with Lombok modelwide @Getter and @Setter:&#xA;@Getter @Setter public class User { @Id private String id; private String username; private String email; private String password; } setId(String id) makes no sense. Normally the id is set by the DB, so it makes no sense to set it.&#xA;So you can use @Setter(AccessLevel.NONE) (or @Getter(AccessLevel.NONE)) to exclude it from the Lombok setters (or getters)</description>
+    </item>
+    <item>
+      <title>My Firefox Extensions</title>
+      <link>https://code.joergi.io/quickstart/posts/2020-04-29-my-firefox-extensions/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2020-04-29-my-firefox-extensions/</guid>
+      <description>Facebook Container from Mozilla &amp;ldquo;Facebook Container isolates your Facebook activity from the rest of your web activity in order to prevent Facebook from tracking you outside of the Facebook website via third party cookies.&amp;rdquo; (from the Github description)&#xA;Dark-Reader from Alexander Shutau (also available for other browsers) so join the dark side for a nicer reading&#xA;HTTPS everywhere by EFF and Tor Project (also available for other browsers) &amp;ldquo;Many sites on the web offer some limited support for encryption over HTTPS, but make it difficult to use.</description>
+    </item>
+    <item>
+      <title>How to play The Curse of Monkey Island on Linux</title>
+      <link>https://code.joergi.io/quickstart/posts/2020-04-14-how-to-play-the-curse-of-monkey-island-on-linux/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2020-04-14-how-to-play-the-curse-of-monkey-island-on-linux/</guid>
+      <description>As I was always a LucasArts fan in the 90ties, I wanted to use my &amp;ldquo;free time&amp;rdquo; (thanks to the Corona lockdown) for playing this old classics.&#xA;I bought Monkey Island 1 + 2 on Steam - with the Proton helper, it starts all easy, out of the box.&#xA;Monkey Island 3 and 4 I was buying at Gog (it was cheaper) - no help here to get it running for Linux.</description>
+    </item>
+    <item>
+      <title>How to mount an encrypted volume from a live ISO</title>
+      <link>https://code.joergi.io/quickstart/posts/2020-04-10-how-to-mount-an-encrypted-volume-from-a-live-iso/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2020-04-10-how-to-mount-an-encrypted-volume-from-a-live-iso/</guid>
+      <description>If you destroyed somehow your Linux system, which has an encrypted volume, and you want to log into this, but booting is not working, boot from a live ISO, and type:&#xA;you will see sda1 oder sdb1 as your encrypted system this decrypt it and mount it (for example sda1&#xA;after entering the passphrase you can see that this is now decrypted&#xA;you are now able to mount the decrypted volume:</description>
+    </item>
+    <item>
+      <title>Getting a verified user on Github</title>
+      <link>https://code.joergi.io/quickstart/posts/2020-03-27-getting-a-verified-user-on-github/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2020-03-27-getting-a-verified-user-on-github/</guid>
+      <description>sdfasdfdsa sfdsf xxxxxx When you create a new file directly on Github and push it to your branch, you will see in the commit, that this was done by an verified user.&#xA;If you push it from your command line, it normally looks like this:&#xA;P.S. if you followed the tutorial, and something went wrong, it will look like this:&#xA;But let&amp;rsquo;s start from the beginning! First of all: Github gives you a great Readme for this, that&amp;rsquo;s why I link it here were needed.</description>
+    </item>
+    <item>
+      <title>Using MongoRepository with more than one sorting with Spring Boot</title>
+      <link>https://code.joergi.io/quickstart/posts/2019-09-09-using-mongorepository-with-more-than-one-sorting-with-spring/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2019-09-09-using-mongorepository-with-more-than-one-sorting-with-spring/</guid>
+      <description>Sometimes you need a List of the Database to be sorted by more than one column.&#xA;If you connect to your database with the org.springframework.data.mongodb.repository.MongoRepository you can only give one org.springframework.data.domain.Sort to a search method.&#xA;This is how the Repository class looks like:&#xA;@Repository public interface TestRepository extends MongoRepository&amp;lt;Test, Long&amp;gt; { public List&amp;lt;Score&amp;gt; findAllByTestName(String testName, Sort sort ); } test has some column &amp;ldquo;abc&amp;rdquo; and some column &amp;ldquo;def&amp;rdquo; and some &amp;ldquo;ghi&amp;rdquo; &amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Deutsche Bahn,Docker and Wifi in an ICE and VPN problems</title>
+      <link>https://code.joergi.io/quickstart/posts/2019-09-06-deutsche-bahn-docker-and-wifi-in-a-ice-and-vpn-problems/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2019-09-06-deutsche-bahn-docker-and-wifi-in-a-ice-and-vpn-problems/</guid>
+      <description>The Deutsche Bahn is providing free wifi for some years now. It works for most of the people pretty well, but if you are a developer you could have some issues. I was suffering a lot with this, this is why I&amp;rsquo;m posting it, to help some of you&#xA;As you can see, the WiFi is running on the IP 172.18.xxx&#xA;If you are running docker it can happen, that you have in your ifconfig a bridge already on this IP:</description>
+    </item>
+    <item>
+      <title>Using Docker as non-root</title>
+      <link>https://code.joergi.io/quickstart/posts/2017-10-17-using-docker-as-non-root/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2017-10-17-using-docker-as-non-root/</guid>
+      <description>[UPDATE 2020-04-21] as mentioned in this post it&amp;rsquo;s not needed anymore:&#xA;Good news: the new docker (version 19.03 (currently experimental)) will be able to run rootless negating the problems that can occur using a root user. No more messing with elevated permissions, root and anything that might open up your machine when you did not want to. Normally you need to run docker as root:&#xA;sudo docker run hello-world If this is going on your nerves, you can add your normal user to the docker-usergroup.</description>
+    </item>
+    <item>
+      <title>Berlin – where to go</title>
+      <link>https://code.joergi.io/quickstart/posts/2017-04-09-berlin-where-to-go/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2017-04-09-berlin-where-to-go/</guid>
+      <description>Berlin has so many cool bars and restaurants to offer&amp;hellip; I&amp;rsquo;m many times asked: what should we do? And no, I don&amp;rsquo;t want to write always the same stuff again, so I was thinking of making this list!&#xA;Vegan food First of all: www.berlin-vegan.de has nearly all vegan stuff covered.. Download the Android app or the iPhone app and you are fine.&#xA;My faves:&#xA;Bars:&#xA;&amp;hellip; list is not complete yet</description>
+    </item>
+    <item>
+      <title>mySQL workbench can&#39;t connect via ssh tunnel</title>
+      <link>https://code.joergi.io/quickstart/posts/2017-02-20-mysql-workbench-cant-connect-via-ssh-tunnel/</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2017-02-20-mysql-workbench-cant-connect-via-ssh-tunnel/</guid>
+      <description>If you can&amp;rsquo;t connect with your mysql-workbench to a database via ssh have a look at your logfile:&#xA;tail -f -n 100 ~/.mysql/workbench/log/wb.log and you will see this error:&#xA;14:12:58 [ERR][sshtunnel.py:notify_exception_error:233]: Traceback (most recent call last): File &amp;#34;/usr/share/mysql-workbench/sshtunnel.py&amp;#34;, line 265, in _connect_ssh look_for_keys=has_key, allow_agent=has_key) File &amp;#34;/usr/lib/python2.7/dist-packages/paramiko/client.py&amp;#34;, line 306, in connect t.start_client() File &amp;#34;/usr/lib/python2.7/dist-packages/paramiko/transport.py&amp;#34;, line 465, in start_client raise e ValueError: CTR mode needs counter parameter, not IV change your transport.py:</description>
+    </item>
+    <item>
+      <title>install node.js from binaries</title>
+      <link>https://code.joergi.io/quickstart/posts/2017-01-31-install-node-from-binaries/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2017-01-31-install-node-from-binaries/</guid>
+      <description>Source: http://www.thegeekstuff.com/2015/10/install-nodejs-npm-linux/&#xA;wget https://nodejs.org/dist/v7.4.0/node-v7.4.0-linux-x64.tar.gz cd /usr/local tar --strip-components 1 -xzf /path/to/node-v7.4.0-linux-x64.tar.gz node should be in the newest version:&#xA;node -v </description>
+    </item>
+    <item>
+      <title>Sync folders in Vagrant but exclude some folders from syncing</title>
+      <link>https://code.joergi.io/quickstart/posts/2017-01-19-sync-folders-in-vagrant-but-exclude-some-folders-from-syncing/</link>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2017-01-19-sync-folders-in-vagrant-but-exclude-some-folders-from-syncing/</guid>
+      <description>Maybe you know this: you have a huge Java project, maybe the project itself is a sum of many (not even so small) Java projects. For sharing the complete setting with other developers you normally use a Vagrant box to make it easy. At work we needed 2 big projects in one Vagrant box, which included over 10 small maven projects.&#xA;Normally I would share it like this:&#xA;config.vm.synced_folder &amp;#34;my-project1&amp;#34;, &amp;#34;/home/vagrant/my-project1&amp;#34; config.</description>
+    </item>
+    <item>
+      <title>Using XIOAMI gamepad with Linux</title>
+      <link>https://code.joergi.io/quickstart/posts/2016-01-14-using-xioami-gamepad-with-linux/</link>
+      <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2016-01-14-using-xioami-gamepad-with-linux/</guid>
+      <description>I have the XIOAMI gamepad, a cheap gamepad which looks like the classical XBOX gamepad When I used it first with my Fire TV Stick, it worked like a charm. I wanted to try it with my Linux and with Steam.&#xA;When i used it in a game it was totally uncalibrated. Pressing the joystick to the top position had no effect at all on my game character.&#xA;So, i had to calibrate with a small programm, which I install on the shell with:</description>
+    </item>
+    <item>
+      <title>How to push files from your PC to Amazon Fire TV</title>
+      <link>https://code.joergi.io/quickstart/posts/2015-11-28-how-to-push-files-from-your-pc-to-amazon-fire-tv-aftv/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2015-11-28-how-to-push-files-from-your-pc-to-amazon-fire-tv-aftv/</guid>
+      <description>The easiest way to do it:&#xA;settings –&amp;gt; system –&amp;gt; Developer Option ADB-Debuggin ON Apps from unknown sources ON After that, download the actual adbFireLink&#xA;You can now push with one klick: Kodi, FireLauncher and the addons you need for Kodi</description>
+    </item>
+    <item>
+      <title>Being able to develop on an unknown phone on a Linux computer</title>
+      <link>https://code.joergi.io/quickstart/posts/2015-11-14-being-able-to-develop-on-an-unknow-phone-on-a-linux-computer/</link>
+      <pubDate>Sat, 14 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2015-11-14-being-able-to-develop-on-an-unknow-phone-on-a-linux-computer/</guid>
+      <description>When i tried to deploy a Hello World app from my Linux notebook to my THL 5000 notebook i got this result:&#xA;So, my phone has API level 1, nice - NOT!&#xA;Googling my ass off, I could nowhere find the device id for this phone&amp;hellip; So Tobi told me: Brute-Force is the way to go and what should I say: it worked!&#xA;So: google for the &amp;ldquo;51-android.rules&amp;rdquo; or just save this one.</description>
+    </item>
+    <item>
+      <title>Barcelona-tips</title>
+      <link>https://code.joergi.io/quickstart/posts/2015-09-09-barcelona-tips/</link>
+      <pubDate>Wed, 09 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2015-09-09-barcelona-tips/</guid>
+      <description>Because I was living in 2011 for 3 month in my favourite city Barcelona, I am asked so many times for Barcelona Tips&amp;hellip; So here we go:&#xA;Concerts&#xA;Always have a look at THIS FORUM, it&amp;rsquo;s in catalan, but you can get the informations out of the postings and Google Translate will help you too! Best online information for squat shows (but let me tell you: they start really really late&amp;hellip; ) One of my favourite Punkbars with concerts, i saw US Bombs and Death by Stereo there&amp;hellip; also good for just havin&amp;rsquo; some drinks&amp;hellip; Carrer Almogàvers, 116, 08018 Barcelona (Metro: L1 Marina or L4 Bogatell) (near Sala Razzmatazz)</description>
+    </item>
+    <item>
+      <title>Which Linux Version is running</title>
+      <link>https://code.joergi.io/quickstart/posts/2015-08-24-which-linux-version-is-running/</link>
+      <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2015-08-24-which-linux-version-is-running/</guid>
+      <description>Sometimes you need to know, which Linux distro you are running, and especially, which version:&#xA;lsb_release -a The answer will look like:&#xA;No LSB modules are available Distributor ID: Ubuntu Description: Ubuntu 14.04.3 LTS Release: 14.04 Codename: trusty </description>
+    </item>
+    <item>
+      <title>No HDD space left for ubuntu update, make some space at /boot</title>
+      <link>https://code.joergi.io/quickstart/posts/2015-05-20-no-hdd-space-left-for-ubuntu-update-make-some-space-at-boot/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2015-05-20-no-hdd-space-left-for-ubuntu-update-make-some-space-at-boot/</guid>
+      <description>your hd is full, make space in /boot&#xA;make a&#xA;cd /boot ls -la so you see the `/boot` folder now delete the stuff you don&amp;rsquo;t need anymore:&#xA;sudo aptitude remove linux-image-3.13.0-49-generic sudo apt-get remove ... (ls -la after deleting the linux kernel image)</description>
+    </item>
+    <item>
+      <title>Finding the biggest folders</title>
+      <link>https://code.joergi.io/quickstart/posts/2015-03-02-finding-the-biggest-folders/</link>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2015-03-02-finding-the-biggest-folders/</guid>
+      <description>If you have on a server a folder which is to big, and you want to know, which file is the reason for a problem, use du&#xA;du -m | sort -n | tail -n 10 for finding the 10 biggest folders. (repeat this step in the biggest folder again to find the “problem folders”)</description>
+    </item>
+    <item>
+      <title>npm throws error /usr/bin/env: node: No such file or directory</title>
+      <link>https://code.joergi.io/quickstart/posts/2014-05-09-npm-throws-error-usr_bin_env_node-no-such-file-or-directory/</link>
+      <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2014-05-09-npm-throws-error-usr_bin_env_node-no-such-file-or-directory/</guid>
+      <description>If the nodejs server was installed via the package manager, it is not in: /usr/bin/env/node, it is in: /usr/bin/env/nodejs&#xA;To solve this problem, you should set a symlink&#xA;ln -s /usr/bin/nodejs /usr/bin/node credits for this hint: digitalmediums at github</description>
+    </item>
+    <item>
+      <title>Use 2 Skype accounts on Linux</title>
+      <link>https://code.joergi.io/quickstart/posts/2014-03-30-use-2-skype-accounts-on-linux/</link>
+      <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2014-03-30-use-2-skype-accounts-on-linux/</guid>
+      <description>If you have more than one Skype account (to seperate private and business) and you want to use them simultaneous, you have to:&#xA;press ALT + F2&#xA;enter: skype --secondary Credits: gvscroder at skype forum</description>
+    </item>
+  </channel>
+</rss>

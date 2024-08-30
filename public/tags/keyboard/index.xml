@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keyboard on My digital brain</title>
+    <link>https://code.joergi.io/quickstart/tags/keyboard/</link>
+    <description>Recent content in Keyboard on My digital brain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://code.joergi.io/quickstart/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install patch for Thinkpad Trackpoint Keyboard II</title>
+      <link>https://code.joergi.io/quickstart/posts/2022-10-14-install-patch-for-thinkpad-trackpoint-keyboard-ii/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://code.joergi.io/quickstart/posts/2022-10-14-install-patch-for-thinkpad-trackpoint-keyboard-ii/</guid>
+      <description>New Thinkpad Trackpoint Keyboard II (i maybe should have cleaned it, before the picture&amp;hellip;)&#xA;I got my first Thinkpad Trackpoint keyboard as a farwell gift from a company I worked for (thanks &amp;lt;3 ).&#xA;I don&amp;rsquo;t use any mouse, I just use the red &amp;ldquo;joystick&amp;rdquo; (called trackpoint) to navigate. For users which aren&amp;rsquo;t used to it, it&amp;rsquo;s a horror if they have to use my keyboard. But if you are used to it, you don&amp;rsquo;t wanna work without it anymore.</description>
+    </item>
+  </channel>
+</rss>
