@@ -14,12 +14,12 @@ make a
 cd /boot ls -la
 so you see the `/boot` folder
 ```
-![alt text](https://joergi77.files.wordpress.com/2015/05/hd_full_lsla.png)   
+![screenshot of the boot folder](../images/no_hdd_space_left_full_lsla.png)   
 
 now delete the stuff you don't need anymore:
 ```bash
 sudo aptitude remove linux-image-3.13.0-49-generic
 sudo apt-get remove ...
 ```
-![alt text](https://joergi77.files.wordpress.com/2015/05/after_deleting_linux_image.png)     
+![ls -la after deleting the linux kernel image](https://joergi77.files.wordpress.com/2015/05/after_deleting_linux_image.png)     
 (ls -la after deleting the linux kernel image)
